@@ -1,0 +1,232 @@
+---
+import '../styles/site.css';
+const siteName = "Alisons Driving School";
+const phone = "07958 186 481";
+const email = "aliesdrivingschool@gmail.com";
+const address = "18 Pebsham Dr, Bexhill-on-Sea";
+---
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Alisons Driving School – Bexhill-on-Sea &amp; Hastings</title>
+  <meta name="description" content="Qualified approved driving instructor with 10 years experience in Bexhill-on-Sea, Hastings, St Leonards and Eastbourne. Competitive prices and tailored lessons." />
+  <link rel="icon" href="/images/logo-mini.png" />
+</head>
+<body>
+
+  <!-- Preview banner -->
+  <div style="background:white;color:#374151;padding:8px 16px;text-align:center;font-size:13px;position:sticky;top:0;z-index:50;border-bottom:1px solid #E5E7EB;box-shadow:0 1px 3px rgba(0,0,0,0.05)"><div style="max-width:56rem;margin:0 auto;display:flex;align-items:center;justify-content:center;gap:12px;flex-wrap:wrap"><span>Preview redesign for <strong style="color:#111827">Alisons Driving School</strong></span><a href="https://biscuitweb.co.uk/activate?id=D1979&amp;name=Alisons%20Driving%20School" style="display:inline-flex;align-items:center;padding:4px 14px;background:#111827;color:white;font-weight:700;font-size:11px;border-radius:9999px;text-decoration:none">Like it? Just £20/month</a></div></div>
+
+  <!-- Nav -->
+  <header class="bg-white border-b border-[#C2D7E9] shadow-sm">
+    <div class="max-w-6xl mx-auto px-4 py-3 flex items-center justify-between">
+      <a href="/D1979" class="flex items-center gap-3">
+        <img src="/D1979/images/logo-mini.png" alt="Alisons Driving School Logo" width="120" height="39" fetchpriority="high" />
+      </a>
+      <nav class="hidden md:flex items-center gap-6 text-sm font-semibold text-[#1F496E]">
+        <a href="/D1979" class="text-[#337AB7] border-b-2 border-[#337AB7] pb-0.5">Home</a>
+        <a href="/D1979/prices-php" class="hover:text-[#337AB7] transition-colors">Prices</a>
+        <a href="/D1979/links-php" class="hover:text-[#337AB7] transition-colors">Links</a>
+        <a href="/D1979/contact-php" class="hover:text-[#337AB7] transition-colors">Contact Us</a>
+        <a href="/D1979/contact-php" class="bg-[#337AB7] text-white px-4 py-2 rounded-full hover:bg-[#296292] transition-colors">Book a Lesson</a>
+      </nav>
+      <button id="menu-btn" class="md:hidden p-2 rounded text-[#1F496E]" aria-label="Open menu">
+        <svg width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M4 6h16M4 12h16M4 18h16"/></svg>
+      </button>
+    </div>
+    <div id="mobile-menu" class="hidden md:hidden bg-white border-t border-[#C2D7E9] px-4 pb-4">
+      <nav class="flex flex-col gap-3 pt-3 text-sm font-semibold text-[#1F496E]">
+        <a href="/D1979" class="text-[#337AB7]">Home</a>
+        <a href="/D1979/prices-php" class="hover:text-[#337AB7]">Prices</a>
+        <a href="/D1979/links-php" class="hover:text-[#337AB7]">Links</a>
+        <a href="/D1979/contact-php" class="hover:text-[#337AB7]">Contact Us</a>
+        <a href="/D1979/contact-php" class="bg-[#337AB7] text-white px-4 py-2 rounded-full text-center hover:bg-[#296292]">Book a Lesson</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero: split layout — solid brand colour left, car photo right -->
+  <section class="bg-[#337AB7] min-h-[480px] flex items-center">
+    <div class="max-w-6xl mx-auto px-4 py-16 grid md:grid-cols-2 gap-10 items-center w-full">
+      <div class="text-white">
+        <span class="inline-block bg-white/20 text-white text-sm font-semibold px-3 py-1 rounded-full mb-4">📍 Bexhill-on-Sea</span>
+        <h1 class="text-4xl md:text-5xl font-extrabold leading-tight mb-4 text-white">
+          Learn to Drive with Confidence
+        </h1>
+        <p class="text-lg text-white/90 mb-6 max-w-md">
+          Qualified, approved driving instructor with 10 years of experience in Bexhill and Hastings. Tailored lessons that help you pass — and drive safely for life.
+        </p>
+        <div class="flex flex-wrap gap-3">
+          <a href="/D1979/contact-php" class="bg-white text-[#337AB7] font-bold px-6 py-3 rounded-full hover:bg-[#EFF4F9] transition-colors">Book a Lesson</a>
+          <a href="/D1979/prices-php" class="border-2 border-white text-white font-bold px-6 py-3 rounded-full hover:bg-white/10 transition-colors">View Prices</a>
+        </div>
+      </div>
+      <div class="flex justify-center">
+        <img src="/D1979/images/car.png" alt="Alisons Driving School" width="387" height="415" fetchpriority="high" class="max-w-sm w-full" />
+      </div>
+    </div>
+  </section>
+
+  <!-- Trust strip -->
+  <section class="bg-[#296292] text-white py-5">
+    <div class="max-w-6xl mx-auto px-4 flex flex-wrap justify-center gap-8 text-sm font-semibold">
+      <div class="flex items-center gap-2">
+        <span class="text-xl">✅</span>
+        <span>DVSA Approved Instructor</span>
+      </div>
+      <div class="flex items-center gap-2">
+        <span class="text-xl">🏆</span>
+        <span>10 Years Experience</span>
+      </div>
+      <div class="flex items-center gap-2">
+        <span class="text-xl">📍</span>
+        <span>Bexhill, Hastings &amp; Beyond</span>
+      </div>
+      <div class="flex items-center gap-2">
+        <span class="text-xl">😊</span>
+        <span>Relaxed, Friendly Lessons</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- About learning to drive -->
+  <section class="py-16 bg-[#F5F8FB]">
+    <div class="max-w-6xl mx-auto px-4 grid md:grid-cols-2 gap-12 items-center">
+      <div>
+        <span class="text-[#337AB7] text-sm font-bold uppercase tracking-widest mb-2 block">Thinking About Learning to Drive?</span>
+        <h2 class="text-3xl font-extrabold text-[#0F2537] mb-4">A New Freedom Awaits</h2>
+        <p class="text-[#1F496E] leading-relaxed mb-4">
+          Learning to drive is one of life's rewarding challenges. It can make a huge change to your life, giving you new freedom and opportunities that can benefit your work and personal lifestyle.
+        </p>
+        <p class="text-[#1F496E] leading-relaxed">
+          I cover most areas including Bexhill-on-Sea, Hastings, St Leonards-on-Sea, Eastbourne and all surrounding areas.
+        </p>
+      </div>
+      <div class="grid grid-cols-2 gap-4">
+        <div class="bg-white rounded-xl p-5 border border-[#C2D7E9] text-center shadow-sm">
+          <div class="text-3xl font-extrabold text-[#337AB7] mb-1">10+</div>
+          <div class="text-sm text-[#1F496E] font-semibold">Years Experience</div>
+        </div>
+        <div class="bg-white rounded-xl p-5 border border-[#C2D7E9] text-center shadow-sm">
+          <div class="text-3xl font-extrabold text-[#337AB7] mb-1">ADI</div>
+          <div class="text-sm text-[#1F496E] font-semibold">Approved Instructor</div>
+        </div>
+        <div class="bg-white rounded-xl p-5 border border-[#C2D7E9] text-center shadow-sm">
+          <div class="text-3xl font-extrabold text-[#337AB7] mb-1">£38</div>
+          <div class="text-sm text-[#1F496E] font-semibold">Per Lesson</div>
+        </div>
+        <div class="bg-white rounded-xl p-5 border border-[#C2D7E9] text-center shadow-sm">
+          <div class="text-3xl font-extrabold text-[#337AB7] mb-1">4+</div>
+          <div class="text-sm text-[#1F496E] font-semibold">Areas Covered</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Me -->
+  <section class="py-16 bg-[#EFF4F9]">
+    <div class="max-w-6xl mx-auto px-4">
+      <div class="max-w-3xl mx-auto text-center">
+        <span class="text-[#337AB7] text-sm font-bold uppercase tracking-widest mb-2 block">About Me</span>
+        <h2 class="text-3xl font-extrabold text-[#0F2537] mb-6">Your Qualified, Friendly Instructor</h2>
+        <p class="text-[#1F496E] leading-relaxed text-lg">
+          I am a qualified approved driving instructor with 10 years' experience in the Bexhill area. I will tailor your lessons to suit you as an individual, giving you the best possible tuition in a relaxed manner to make your lessons enjoyable while learning.
+        </p>
+        <p class="text-[#1F496E] leading-relaxed text-lg mt-4">
+          I will teach you the necessary skills not just to pass your driving test, but to ensure you have the skills to be a safe, confident and considerate driver for the rest of your life.
+        </p>
+        <a href="http://www.facebook.com/pages/Alisons-driving-school/111416078982113" target="_blank" rel="noopener" class="inline-block mt-6 bg-[#337AB7] text-white font-bold px-6 py-3 rounded-full hover:bg-[#296292] transition-colors">
+          See Our Wall of Fame on Facebook
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Areas Covered -->
+  <section class="py-16 bg-white">
+    <div class="max-w-6xl mx-auto px-4 text-center">
+      <span class="text-[#337AB7] text-sm font-bold uppercase tracking-widest mb-2 block">Where I Teach</span>
+      <h2 class="text-3xl font-extrabold text-[#0F2537] mb-8">Areas Covered</h2>
+      <div class="flex flex-wrap justify-center gap-3">
+        {["Bexhill-on-Sea", "Hastings", "St Leonards-on-Sea", "Eastbourne", "All Surrounding Areas"].map(area => (
+          <span class="bg-[#E0EBF4] text-[#296292] font-semibold px-5 py-2 rounded-full text-sm">📍 {area}</span>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <!-- Pricing teaser -->
+  <section class="py-16 bg-[#F5F8FB]">
+    <div class="max-w-6xl mx-auto px-4 text-center">
+      <span class="text-[#337AB7] text-sm font-bold uppercase tracking-widest mb-2 block">My Prices</span>
+      <h2 class="text-3xl font-extrabold text-[#0F2537] mb-8">Straightforward, Competitive Pricing</h2>
+      <div class="grid md:grid-cols-2 gap-6 max-w-2xl mx-auto">
+        <div class="bg-white rounded-2xl p-8 border-2 border-[#C2D7E9] shadow-sm text-center">
+          <div class="text-4xl font-extrabold text-[#337AB7] mb-2">£38</div>
+          <div class="text-xl font-bold text-[#0F2537] mb-2">Per Hour</div>
+          <p class="text-[#1F496E] text-sm">Pay as you go. Ideal for topping up your skills or refresher lessons.</p>
+        </div>
+        <div class="bg-[#337AB7] rounded-2xl p-8 shadow-md text-center text-white relative">
+          <div class="absolute -top-3 left-1/2 -translate-x-1/2 bg-[#23A8E0] text-white text-xs font-bold px-4 py-1 rounded-full">Best Value</div>
+          <div class="text-4xl font-extrabold mb-2 text-white">£370</div>
+          <div class="text-xl font-bold mb-2 text-white">10 Hour Block</div>
+          <p class="text-white/90 text-sm">Save with a block booking paid in advance. Non-refundable.</p>
+        </div>
+      </div>
+      <a href="/D1979/prices-php" class="inline-block mt-8 bg-[#337AB7] text-white font-bold px-8 py-3 rounded-full hover:bg-[#296292] transition-colors">Full Pricing Details</a>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section class="py-16 bg-[#296292] text-white text-center">
+    <div class="max-w-2xl mx-auto px-4">
+      <h2 class="text-3xl font-extrabold mb-4 text-white">Ready to Get Started?</h2>
+      <p class="text-white/90 mb-6">Get in touch by text, email or Facebook message. I'm usually teaching during the day, so a message works best.</p>
+      <div class="flex flex-wrap justify-center gap-4">
+        <a href="tel:+447958186481" class="bg-white text-[#296292] font-bold px-6 py-3 rounded-full hover:bg-[#EFF4F9] transition-colors">📞 07958 186 481</a>
+        <a href="mailto:aliesdrivingschool@gmail.com" class="border-2 border-white text-white font-bold px-6 py-3 rounded-full hover:bg-white/10 transition-colors">✉️ Email Me</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-[#0F2537] text-white py-12">
+    <div class="max-w-6xl mx-auto px-4 grid md:grid-cols-3 gap-8">
+      <div>
+        <img src="/D1979/images/logo-mini.png" alt="Alisons Driving School Logo" width="120" height="39" loading="lazy" class="mb-3 brightness-0 invert" />
+        <p class="text-white/70 text-sm leading-relaxed">Qualified approved driving instructor serving Bexhill-on-Sea, Hastings and surrounding areas.</p>
+      </div>
+      <div>
+        <div class="font-bold text-sm uppercase tracking-widest text-white/50 mb-3">Pages</div>
+        <nav class="flex flex-col gap-2 text-sm">
+          <a href="/D1979" class="text-white/80 hover:text-white transition-colors">Home</a>
+          <a href="/D1979/prices-php" class="text-white/80 hover:text-white transition-colors">Prices</a>
+          <a href="/D1979/links-php" class="text-white/80 hover:text-white transition-colors">Links</a>
+          <a href="/D1979/contact-php" class="text-white/80 hover:text-white transition-colors">Contact Us</a>
+        </nav>
+      </div>
+      <div>
+        <div class="font-bold text-sm uppercase tracking-widest text-white/50 mb-3">Contact</div>
+        <div class="flex flex-col gap-2 text-sm text-white/80">
+          <span>18 Pebsham Dr, Bexhill-on-Sea</span>
+          <a href="tel:+447958186481" class="hover:text-white transition-colors">07958 186 481</a>
+          <a href="mailto:aliesdrivingschool@gmail.com" class="hover:text-white transition-colors">aliesdrivingschool@gmail.com</a>
+          <a href="http://www.facebook.com/pages/Alisons-driving-school/111416078982113" target="_blank" rel="noopener" class="hover:text-white transition-colors">Facebook</a>
+        </div>
+      </div>
+    </div>
+    <div class="max-w-6xl mx-auto px-4 mt-8 pt-6 border-t border-white/10 text-center text-white/50 text-xs">
+      &copy; Alisons Driving School 2026. All rights reserved.
+    </div>
+  </footer>
+
+  <script>
+    const btn = document.getElementById('menu-btn');
+    const menu = document.getElementById('mobile-menu');
+    btn?.addEventListener('click', () => menu?.classList.toggle('hidden'));
+  </script>
+
+</body>
+</html>

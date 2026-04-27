@@ -1,0 +1,165 @@
+---
+import '../styles/site.css';
+---
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Prices – Alisons Driving School, Bexhill-on-Sea</title>
+  <meta name="description" content="Driving lesson prices in Bexhill-on-Sea and Hastings. £38 per hour or £370 for a 10-hour block booking." />
+  <link rel="icon" href="/images/logo-mini.png" />
+</head>
+<body>
+
+  <!-- Preview banner -->
+  <div style="background:white;color:#374151;padding:8px 16px;text-align:center;font-size:13px;position:sticky;top:0;z-index:50;border-bottom:1px solid #E5E7EB;box-shadow:0 1px 3px rgba(0,0,0,0.05)"><div style="max-width:56rem;margin:0 auto;display:flex;align-items:center;justify-content:center;gap:12px;flex-wrap:wrap"><span>Preview redesign for <strong style="color:#111827">Alisons Driving School</strong></span><a href="https://biscuitweb.co.uk/activate?id=D1979&amp;name=Alisons%20Driving%20School" style="display:inline-flex;align-items:center;padding:4px 14px;background:#111827;color:white;font-weight:700;font-size:11px;border-radius:9999px;text-decoration:none">Like it? Just £20/month</a></div></div>
+
+  <!-- Nav -->
+  <header class="bg-white border-b border-[#C2D7E9] shadow-sm">
+    <div class="max-w-6xl mx-auto px-4 py-3 flex items-center justify-between">
+      <a href="/D1979" class="flex items-center gap-3">
+        <img src="/D1979/images/logo-mini.png" alt="Alisons Driving School Logo" width="120" height="39" fetchpriority="high" />
+      </a>
+      <nav class="hidden md:flex items-center gap-6 text-sm font-semibold text-[#1F496E]">
+        <a href="/D1979" class="hover:text-[#337AB7] transition-colors">Home</a>
+        <a href="/D1979/prices-php" class="text-[#337AB7] border-b-2 border-[#337AB7] pb-0.5">Prices</a>
+        <a href="/D1979/links-php" class="hover:text-[#337AB7] transition-colors">Links</a>
+        <a href="/D1979/contact-php" class="hover:text-[#337AB7] transition-colors">Contact Us</a>
+        <a href="/D1979/contact-php" class="bg-[#337AB7] text-white px-4 py-2 rounded-full hover:bg-[#296292] transition-colors">Book a Lesson</a>
+      </nav>
+      <button id="menu-btn" class="md:hidden p-2 rounded text-[#1F496E]" aria-label="Open menu">
+        <svg width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M4 6h16M4 12h16M4 18h16"/></svg>
+      </button>
+    </div>
+    <div id="mobile-menu" class="hidden md:hidden bg-white border-t border-[#C2D7E9] px-4 pb-4">
+      <nav class="flex flex-col gap-3 pt-3 text-sm font-semibold text-[#1F496E]">
+        <a href="/D1979" class="hover:text-[#337AB7]">Home</a>
+        <a href="/D1979/prices-php" class="text-[#337AB7]">Prices</a>
+        <a href="/D1979/links-php" class="hover:text-[#337AB7]">Links</a>
+        <a href="/D1979/contact-php" class="hover:text-[#337AB7]">Contact Us</a>
+        <a href="/D1979/contact-php" class="bg-[#337AB7] text-white px-4 py-2 rounded-full text-center hover:bg-[#296292]">Book a Lesson</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Page header -->
+  <section class="bg-[#337AB7] py-14 text-white text-center">
+    <div class="max-w-3xl mx-auto px-4">
+      <span class="inline-block bg-white/20 text-white text-sm font-semibold px-3 py-1 rounded-full mb-4">📍 Bexhill-on-Sea</span>
+      <h1 class="text-4xl font-extrabold text-white mb-3">My Prices</h1>
+      <p class="text-white/90 text-lg">Straightforward, competitive pricing with a block booking discount.</p>
+    </div>
+  </section>
+
+  <!-- Intro -->
+  <section class="py-12 bg-[#F5F8FB]">
+    <div class="max-w-3xl mx-auto px-4 text-center">
+      <p class="text-[#1F496E] text-lg leading-relaxed">
+        I aim to provide a reasonable service at a reasonable price. Below is my price list that offers a reduced rate on selected amounts of driving lessons booked in advance. If you can't find the information you require below, please contact me and I will be happy to answer any of your questions.
+      </p>
+    </div>
+  </section>
+
+  <!-- Pricing cards -->
+  <section class="py-12 bg-[#EFF4F9]">
+    <div class="max-w-4xl mx-auto px-4">
+      <h2 class="text-2xl font-extrabold text-[#0F2537] text-center mb-8">Lesson Prices</h2>
+      <div class="grid md:grid-cols-2 gap-6">
+        <!-- Hourly rate -->
+        <div class="bg-white rounded-2xl p-8 border-2 border-[#C2D7E9] shadow-sm text-center">
+          <div class="text-5xl font-extrabold text-[#337AB7] mb-2">£38</div>
+          <div class="text-xl font-bold text-[#0F2537] mb-3">Per Hour</div>
+          <ul class="text-[#1F496E] text-sm space-y-2 text-left mx-auto max-w-xs">
+            <li class="flex items-start gap-2"><span class="text-[#337AB7] mt-0.5">✓</span> Pay as you go flexibility</li>
+            <li class="flex items-start gap-2"><span class="text-[#337AB7] mt-0.5">✓</span> Tailored to your pace</li>
+            <li class="flex items-start gap-2"><span class="text-[#337AB7] mt-0.5">✓</span> Ideal for refresher lessons</li>
+          </ul>
+          <a href="/D1979/contact-php" class="inline-block mt-6 border-2 border-[#337AB7] text-[#337AB7] font-bold px-6 py-2 rounded-full hover:bg-[#337AB7] hover:text-white transition-colors">Get in Touch</a>
+        </div>
+
+        <!-- Block booking -->
+        <div class="bg-[#337AB7] rounded-2xl p-8 shadow-md text-white text-center relative">
+          <div class="absolute -top-3 left-1/2 -translate-x-1/2 bg-[#23A8E0] text-white text-xs font-bold px-4 py-1 rounded-full">Best Value</div>
+          <div class="text-5xl font-extrabold mb-2 text-white">£370</div>
+          <div class="text-xl font-bold mb-3 text-white">10 Hour Block</div>
+          <ul class="text-white/90 text-sm space-y-2 text-left mx-auto max-w-xs">
+            <li class="flex items-start gap-2"><span class="text-white mt-0.5">✓</span> Paid in advance</li>
+            <li class="flex items-start gap-2"><span class="text-white mt-0.5">✓</span> Save compared to hourly rate</li>
+            <li class="flex items-start gap-2"><span class="text-white mt-0.5">✓</span> Great for intensive progress</li>
+          </ul>
+          <p class="text-white/70 text-xs mt-4">Please note: all pre-paid block bookings are non-refundable.</p>
+          <a href="/D1979/contact-php" class="inline-block mt-5 bg-white text-[#337AB7] font-bold px-6 py-2 rounded-full hover:bg-[#EFF4F9] transition-colors">Book Now</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Recommend a friend -->
+  <section class="py-16 bg-white">
+    <div class="max-w-5xl mx-auto px-4 grid md:grid-cols-2 gap-10 items-center">
+      <div class="flex justify-center">
+        <img src="/D1979/images/friend.jpg" alt="Recommend a friend" width="400" height="300" loading="lazy" class="rounded-xl shadow-md w-full max-w-sm" />
+      </div>
+      <div>
+        <span class="text-[#337AB7] text-sm font-bold uppercase tracking-widest mb-2 block">Spread the Word</span>
+        <h2 class="text-3xl font-extrabold text-[#0F2537] mb-4">Know Someone Who Wants to Learn?</h2>
+        <p class="text-[#1F496E] leading-relaxed mb-4">
+          If you've enjoyed your lessons with me, why not recommend a friend? Word of mouth is how I've built my reputation in Bexhill and Hastings over the past 10 years.
+        </p>
+        <a href="/D1979/contact-php" class="inline-block bg-[#337AB7] text-white font-bold px-6 py-3 rounded-full hover:bg-[#296292] transition-colors">Get in Touch</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section class="py-14 bg-[#296292] text-white text-center">
+    <div class="max-w-2xl mx-auto px-4">
+      <h2 class="text-3xl font-extrabold mb-4 text-white">Have a Question About Pricing?</h2>
+      <p class="text-white/90 mb-6">I'm happy to chat through what's best for you. Drop me a text, email, or Facebook message.</p>
+      <div class="flex flex-wrap justify-center gap-4">
+        <a href="tel:+447958186481" class="bg-white text-[#296292] font-bold px-6 py-3 rounded-full hover:bg-[#EFF4F9] transition-colors">📞 07958 186 481</a>
+        <a href="mailto:aliesdrivingschool@gmail.com" class="border-2 border-white text-white font-bold px-6 py-3 rounded-full hover:bg-white/10 transition-colors">✉️ Email Me</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-[#0F2537] text-white py-12">
+    <div class="max-w-6xl mx-auto px-4 grid md:grid-cols-3 gap-8">
+      <div>
+        <div class="font-extrabold text-lg mb-2">Alisons Driving School</div>
+        <p class="text-white/70 text-sm leading-relaxed">Qualified approved driving instructor serving Bexhill-on-Sea, Hastings and surrounding areas.</p>
+      </div>
+      <div>
+        <div class="font-bold text-sm uppercase tracking-widest text-white/50 mb-3">Pages</div>
+        <nav class="flex flex-col gap-2 text-sm">
+          <a href="/D1979" class="text-white/80 hover:text-white transition-colors">Home</a>
+          <a href="/D1979/prices-php" class="text-white/80 hover:text-white transition-colors">Prices</a>
+          <a href="/D1979/links-php" class="text-white/80 hover:text-white transition-colors">Links</a>
+          <a href="/D1979/contact-php" class="text-white/80 hover:text-white transition-colors">Contact Us</a>
+        </nav>
+      </div>
+      <div>
+        <div class="font-bold text-sm uppercase tracking-widest text-white/50 mb-3">Contact</div>
+        <div class="flex flex-col gap-2 text-sm text-white/80">
+          <span>18 Pebsham Dr, Bexhill-on-Sea</span>
+          <a href="tel:+447958186481" class="hover:text-white transition-colors">07958 186 481</a>
+          <a href="mailto:aliesdrivingschool@gmail.com" class="hover:text-white transition-colors">aliesdrivingschool@gmail.com</a>
+          <a href="http://www.facebook.com/pages/Alisons-driving-school/111416078982113" target="_blank" rel="noopener" class="hover:text-white transition-colors">Facebook</a>
+        </div>
+      </div>
+    </div>
+    <div class="max-w-6xl mx-auto px-4 mt-8 pt-6 border-t border-white/10 text-center text-white/50 text-xs">
+      &copy; Alisons Driving School 2026. All rights reserved.
+    </div>
+  </footer>
+
+  <script>
+    const btn = document.getElementById('menu-btn');
+    const menu = document.getElementById('mobile-menu');
+    btn?.addEventListener('click', () => menu?.classList.toggle('hidden'));
+  </script>
+
+</body>
+</html>
