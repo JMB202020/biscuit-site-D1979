@@ -117,7 +117,8 @@ import '../styles/site.css';
       <div>
         <h2 class="text-2xl font-extrabold text-[#0F2537] mb-2">Send Me a Message</h2>
         <p class="text-[#1F496E] text-sm mb-6">Fill in the form below and I'll get back to you as soon as I can.</p>
-        <form action="https://formspree.io/f/mwvaaojq" method="POST" class="flex flex-col gap-5">
+        <form action="/api/contact" method="POST" class="flex flex-col gap-5">
+            <input type="hidden" name="_site_id" value="D1979" /><input type="hidden" name="_business_name" value="Alisons Driving School" /><input type="hidden" name="_business_email" value="aliesdrivingschool@gmail.com" /><div style="position:absolute;left:-9999px" aria-hidden="true"><input type="text" name="_hp" tabindex="-1" autocomplete="off" /></div>
           <div>
             <label for="name" class="block text-sm font-semibold text-[#0F2537] mb-1">Your Name</label>
             <input type="text" id="name" name="name" required placeholder="Jane Smith" class="w-full border border-[#C2D7E9] rounded-lg px-4 py-3 text-[#0F2537] bg-white focus:outline-none focus:ring-2 focus:ring-[#337AB7] focus:border-transparent placeholder:text-[#C2D7E9]" />
